@@ -1,0 +1,19 @@
+body {
+  background: #36393f;
+  color: #fff;
+  margin: 0;
+}
+
+body,
+input[type="text"] {
+  font-family: "Helvetica Neue";
+}
+
+.App {
+  font-family: Menlo, monospace;
+  color: cyan;
+  border:cyan 2px solid;
+  padding: 10px;
+  display: inline-block;
+  margin: 20px;
+}
