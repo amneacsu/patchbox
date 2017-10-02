@@ -1,6 +1,6 @@
-const sb = require('./server');
+// const sb = require('./server');
 
-const client = sb();
+// const client = sb();
 
 const ipcMain = require('electron').ipcMain;
 ipcMain.on('createFeedStream', function(event, arg) {
